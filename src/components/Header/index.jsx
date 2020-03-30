@@ -1,13 +1,14 @@
 import React from 'react';
 
-import { FaFacebookSquare, FaWordpressSimple, FaGooglePlay, FaPhone } from "react-icons/fa";
 import './styles.scss';
+import { FaFacebookSquare, FaWordpressSimple, FaGooglePlay, FaPhone } from "react-icons/fa";
 
 const Header = () => <section>
   <nav className="header" >
     <div className="title">
       Rádio Moriá FM - 99,7
     </div>
+
     <div className="actions">
       <a href="https://www.facebook.com/RadioMoria99.7/" target="_blank" rel="noopener noreferrer">
         <FaFacebookSquare size={32} color={'#ffffff'} />
