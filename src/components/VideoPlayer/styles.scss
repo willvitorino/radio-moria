@@ -1,8 +1,10 @@
+@import '../../assets/variables.scss';
+
 .video-player {
   height: 100%;
   
   .jmvplayer {
-    width: 80vw;
-    height: 83vh;
+    width: 75vw;
+    height: $mainHeight;
   }
 }
