@@ -1,0 +1,26 @@
+@import '../../assets/variables.scss';
+
+.container {
+  width: 100%;
+  height: $mainHeight;
+
+  background-color: whitesmoke;
+
+  overflow-y: hidden;
+
+  display: flex;
+  flex-direction: row;
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    .audio {
+      background-color: black !important;
+    }
+  }
+
+
+  .video {
+    
+  }
+}
