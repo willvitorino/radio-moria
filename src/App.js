@@ -1,9 +1,12 @@
-import React from 'react';
+import React from 'react'
+
+import './App.scss'
+import Header from './components/Header'
 
 function App() {
   return (
     <section>
-      <h1>Moriá FM 99,7</h1>
+      <Header />
     </section>
   )
 }

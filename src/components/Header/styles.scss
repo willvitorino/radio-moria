@@ -1,0 +1,27 @@
+.header {
+  // Cores
+  background-color: #4a5bb9;
+  color: white;
+
+  // Display
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  // Espaçamentos
+  padding: 1rem 0;
+
+  .title {
+    padding-left: 1rem;
+    // Fonts
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .actions {
+    margin-right: 0.5rem;
+    svg {
+      margin: 0px 0.5rem;
+    }
+  }
+}
