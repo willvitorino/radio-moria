@@ -6,11 +6,11 @@ const VideoPlayer = () => <section>
   <div className="video-player">
     <iframe
       title="Moriá FM Stream"
-      class="jmvplayer"
+      className="jmvplayer"
       src="https://player.jmvstream.com/lvw/UGjEwAqmKNkGw83oo7ZPAIdBVnby2g"
-      allowfullscreen
+      allowFullScreen
       allow="autoplay; fullscreen"
-      frameborder="0"
+      frameBorder="0"
       ></iframe>
     </div>
 </section>

@@ -1,6 +1,9 @@
+@import '../../assets/variables.scss';
+
 .audio-container {
   .audio-frame {
-    height: 3rem;
+    width: 25vw;
+    height: $audioFrameHeight;
     padding: 1rem 0px;
     background-color: black;
   }

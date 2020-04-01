@@ -9,7 +9,7 @@ const AudioPlayer = () => <section>
       title="Audio Rádio Moriá FM"
       src="http://portalmoria.com/player/jPlayer/examples/blue.monday/demo-08.html"
       scrolling="no"
-      frameborder="0"
+      frameBorder="0"
     ></iframe>
   </div>
 </section>;

@@ -1,0 +1,17 @@
+@import '../../assets/variables.scss';
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: calc( 66vh );
+
+  .list-comments {
+    background-color: brown;
+  }
+
+  .input-comment {
+    height: 2rem;
+  }
+}
